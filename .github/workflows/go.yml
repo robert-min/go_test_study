@@ -22,7 +22,7 @@ jobs:
         go-version: 1.19
 
     - name: Module init
-      run: go mod init github.com/robert-min/go_test_study/mocking -v ./mocking
+      run: go mod init github.com/robert-min/go_test_study
 
     - name: Test
       run: go test -v ./mocking
