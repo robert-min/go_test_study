@@ -21,8 +21,8 @@ jobs:
       with:
         go-version: 1.19
 
-#     - name: Build
-#       run: go build -v ./...
+    - name: Module init
+      run: go mod init github.com/robert-min/go_test_study/mocking -v ./mocking
 
     - name: Test
       run: go test -v ./mocking
