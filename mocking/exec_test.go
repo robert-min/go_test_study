@@ -21,6 +21,7 @@ func TestThrowError(t *testing.T) {
 	}
 }
 
+// TEST
 func TestDoSomeStuff(t *testing.T) {
 	tests := []struct {
 		name       string
